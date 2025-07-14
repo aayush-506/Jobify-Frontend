@@ -5,7 +5,7 @@ import {
   JOB_TYPE,
   JOB_STATUS,
   JOB_SORT_BY,
-} from "../../../backend/utils/constants";
+} from "../utils/constants.js";
 import Wrapper from "../assets/wrappers/DashboardFormPage";
 
 export default function SearchContainer() {
