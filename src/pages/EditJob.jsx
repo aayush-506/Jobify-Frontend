@@ -1,7 +1,7 @@
 import { Form, redirect, useLoaderData } from "react-router-dom";
 import { toast } from "react-toastify";
 import { FormRow, FormRowSelect, SubmitBtn } from "../components";
-import { JOB_STATUS, JOB_TYPE } from "../../../backend/utils/constants";
+import { JOB_STATUS, JOB_TYPE } from "../utils/constants";
 import customFetch from "../utils/customFetch";
 import Wrapper from "../assets/wrappers/DashboardFormPage";
 import { useQuery } from "@tanstack/react-query";

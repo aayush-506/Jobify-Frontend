@@ -1,7 +1,7 @@
 import { useOutletContext, Form, redirect } from "react-router-dom";
 import { toast } from "react-toastify";
 import { FormRow, FormRowSelect, SubmitBtn } from "../components";
-import { JOB_STATUS, JOB_TYPE } from "../../../backend/utils/constants";
+import { JOB_STATUS, JOB_TYPE } from "../utils/constants";
 import Wrapper from "../assets/wrappers/DashboardFormPage";
 import customFetch from "../utils/customFetch";
 

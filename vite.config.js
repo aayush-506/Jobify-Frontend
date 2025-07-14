@@ -6,8 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://jobify-backend-r684.onrender.com",
-
+        target: "https://jobify-backend-r684.onrender.com", // backend URL
         changeOrigin: true,
         // Keep /api prefix in the request path
         rewrite: (path) => path, 
